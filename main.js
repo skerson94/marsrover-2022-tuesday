@@ -17,7 +17,7 @@ close_buttons.forEach(function(close_button) {
         const clicked_close_button = e.target;
         const clicked_dot = clicked_close_button.closest(".dot");
 
-        clicked_dot.classList.remote("active");
+        clicked_dot.classList.remove("active");
     });
 
 });
